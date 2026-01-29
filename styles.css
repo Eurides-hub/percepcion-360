@@ -1,0 +1,60 @@
+/* ===============================
+   ESTILO SEGURO STREAMLIT
+================================ */
+
+/* Tipografía base SOLO para main */
+section.main {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Texto grande solo en contenido */
+section.main p,
+section.main li,
+section.main div {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+/* Títulos */
+section.main h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #002E6D;
+}
+
+section.main h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #003A88;
+}
+
+section.main h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #003A88;
+}
+
+/* Sidebar — NO TOCAR layout */
+section[data-testid="stSidebar"] {
+    font-size: 16px;
+}
+
+/* Componentes visuales */
+.section {
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 14px;
+    margin-bottom: 36px;
+    border: 1px solid #e3e8ef;
+}
+
+.big-text {
+    font-size: 22px;
+}
+
+.info-box {
+    background: #E6F2FF;
+    border: 1px solid #BBD7FF;
+    padding: 22px;
+    border-radius: 10px;
+}
